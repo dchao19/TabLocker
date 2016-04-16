@@ -24,7 +24,7 @@ module.exports = {
 
 	module: {
 		loaders: [
-		  { test: /\.jsx?$/, include: APP_DIR, loader: 'babel-loader?presets[]=es2015&presets[]=react' }
+		  { test: /\.jsx?$/, include: APP_DIR, loader: 'babel-loader?presets[]=es2015&presets[]=react' },
 		]
 	},
 
