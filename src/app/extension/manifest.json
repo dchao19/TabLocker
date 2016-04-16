@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "TabLocker",
+	"description": "A chrome/blink web extension that saves tabs with DOM data, cookies and session information so they can be reloaded at a later time.",
+	"version": "0.0.1",
+	"browser_action": {
+		"default_icon": "icons/icon19.png",
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"tabs",
+		"<all_urls>",
+		"storage",
+		"cookies"
+	],
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png" 
+	},
+}
